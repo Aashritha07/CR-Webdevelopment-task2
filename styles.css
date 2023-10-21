@@ -1,0 +1,82 @@
+/* Add your CSS styles here */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#album-cover {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 5px solid #009688;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+#song-title {
+    font-size: 18px;
+    color: #333;
+}
+
+#artist {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-item: centerss
+    width: 200px;
+    margin: 20px 0;
+}
+
+button {
+    background-color:#009688 ;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007a6c;
+}
+
+#progress {
+    background-color: #009688;
+    height: 5px;
+    width: 0;
+    transition: width 0.3s;
+}
+
+.options button {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 20px;
+}
+
+.options button:hover {
+    background-color: #007a6c;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <div class="music-player">
+        <div class="music-info">
+            <img id="album-cover" src="album1.jpg" alt="Album Cover">
+            <h2 id="song-title">Song Title</h2>
+            <p id="artist">Artist</p>
+        </div>
+        <div class="audio-controls">
+            <audio id="audio" src="song1.mp3"></audio>
+            <div class="controls">
+                   <button id="prev-button">Prev</button>
+                <button id="play-button">Play</button>
+                <button id="next-button">Next</button>
+            </div>
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div class="options">
+                <button id="shuffle-button">Shuffle</button>
+                <button id="repeat-button">Repeat</button>
+                <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+                <button id="mute-button">Mute</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
